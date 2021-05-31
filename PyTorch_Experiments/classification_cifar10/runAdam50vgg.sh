@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python main.py --optim adam --lr 1e-3 --eps 1e-8 --beta1 0.9 --beta2 0.999 --momentum 0.9 --decay_epoch 50 --model vgg && mv curve/vgg-adam-lr0.001-betas0.99-0.999-wdecay0.0005-eps1e-08-run0-resetFalse curve/localtrain-100schedule/vgg-adam-lr0.001-betas0.99-0.999-wdecay0.0005-eps1e-08-run0-resetFalse

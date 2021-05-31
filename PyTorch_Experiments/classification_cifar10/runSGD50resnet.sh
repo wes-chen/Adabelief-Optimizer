@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python main.py --optim sgd --lr 0.1 --momentum 0.9 --decay_epoch 50 --model resnet && mv curve/resnet-sgd-lr0.1-momentum0.9-wdecay0.0005-run0-resetFalse curve/localtrain-50schedule/resnet-sgd-lr0.1-momentum0.9-wdecay0.0005-run0-resetFalse
